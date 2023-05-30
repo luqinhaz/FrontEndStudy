@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 1.8rem;
+    padding: 1rem;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 1.8rem;
+    padding: 1rem;
+}
+
+.conteudo {
+    color: white;
+    font-size: 1.6rem;
+    background-color: #181a1b !important;
+    padding: 1.5rem;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 800px;
+}
