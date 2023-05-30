@@ -21,6 +21,10 @@ h3 {
     font-size: 2rem;
 }
 
+figure {
+    text-align: center;
+}
+
 footer {
     background-color: black;
     color: white;
@@ -36,4 +40,16 @@ footer {
     text-align: justify;
     margin: 0 auto;
     max-width: 800px;
+}
+
+.imagens-site {
+    border-radius: 20px 20px;
+    width: 30%;
+    height: 10%;
+}
+@media(min-width: 275) and (max-width: 800px){
+    .imagens-site {
+        width: 90%;
+        height: 70%;
+    }
 }
