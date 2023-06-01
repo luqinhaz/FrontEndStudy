@@ -1,3 +1,7 @@
+:root {
+    background-color: #181a1b !important
+}
+
 * {
     margin: 0;
     border: 0;
@@ -6,6 +10,7 @@
 
 html {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
 }
 
 header {
@@ -14,11 +19,24 @@ header {
     font-size: 1.8rem;
     padding: 1rem;
     padding-top: 1rem;
-    text-align: center;
+    position: fixed;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.9rem;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
+}
+
+h4 {
+    font-size: 1.6rem;
 }
 
 figure {
@@ -32,14 +50,56 @@ footer {
     padding: 1rem;
 }
 
-.conteudo {
+.conteudo-topo {
     color: white;
     font-size: 1.6rem;
-    background-color: #181a1b !important;
     padding: 1.5rem;
     text-align: justify;
     margin: 0 auto;
     max-width: 800px;
+    padding-top: 7rem;
+}
+
+.conteudo {
+    color: white;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    text-align: justify;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+#compras {
+    background-color: #ffff00;
+    width: 150px;
+    height: 100px;
+    right: 0;
+    position: fixed;
+    text-align: center;
+    margin-top: 4rem;
+    z-index: 1;
+}
+
+#grid-conteudo {
+    background-color: #dcdcdc;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.grid div {
+    background-color: #3b3b3b;
+    text-align: center;
+    padding: 1rem;
+}
+
+#formulario {
+    background-color: #313131;
 }
 
 .imagens-site {
@@ -53,3 +113,4 @@ footer {
         height: 70%;
     }
 }
+

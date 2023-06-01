@@ -10,13 +10,17 @@
 
 <body>
     <header>
-        
+        <!-- COMENTÁRIO -->
         <h3> PRIMEIRO SITE RESPONSIVO </h3>
         <h4> Desenvolvimento Web </h4>
-
     </header>
 
-    <section class="conteudo">
+    <div id="compras">
+        <h4>Caixa de Compras</h4>
+        <button>COMPRAR AGORA</button>
+    </div>
+
+    <section class="conteudo-topo">
         <h1>Este é o primeiro título.</h1>
 
         <figure>
@@ -91,12 +95,44 @@
 
     <br>
 
+    <section id="grid-conteudo" class="conteudo">
+        <div class="grid">
+            <div>Conteúdo 1</div>
+            <div>Conteúdo 2</div>
+            <div>Conteúdo 3</div>
+            <div>Conteúdo 4</div>
+            <div>Conteúdo 5</div>
+            <div>Conteúdo 6</div>
+        </div>
+    </section>
+
+    <br>
+
+    <section id="formulario" class="conteudo">
+        <h2>Selecione um produto para mais informações.</h2>
+        <br>
+        <form action="#" method="get" target="_blank">
+            <label for="nome">Nome: </label>
+            <input type="text" id="username" name="nome" placeholder="Digite o seu nome">
+
+            <br>
+
+            <label for="telefone">Celular: </label>
+            <input type="tel" id="celular" name="celular" placeholder="Digite o seu celular com DDD: ">
+
+            <br>
+            
+            <input type="checkbox" id="opcoes" name="html" value="html">
+            <label for="html">Quero saber mais sobre HTML e CSS.</label>
+        </form>
+    </section>
+
+    <br>
+
     <footer>
         <h3>LUCAS MIRANDA MAIA</h3>
         <h4>Desenvolvimento Web</h4>
-        <p>Contato: (XX) XXXXXX-XXXX</p>
     </footer>
 
 </body>
-
 </html>
