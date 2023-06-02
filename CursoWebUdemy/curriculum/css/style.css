@@ -1,0 +1,45 @@
+:root {
+    font-family: Fira Code, Arial, Helvetica, sans-serif;
+    margin: 5px;
+    border: 5px;
+    padding: 5px;
+}
+
+h2 {
+    background-color: #cecece7a;
+    color: #100358;
+    padding: 8px;
+    border-bottom-style: solid;
+}
+
+p {
+    font-size: small;
+}
+
+span {
+    color: #2600ff;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    list-style-position: inside;
+    font-size: small;
+}
+
+.nome-topo {
+    background-color: #3d55d87a;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 8px;
+    width: auto;
+    color: #100358;
+    margin-bottom: 0;
+}
+
+.info-header {
+    text-align: center;
+}
+
