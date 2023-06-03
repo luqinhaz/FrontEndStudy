@@ -1,8 +1,10 @@
 :root {
     font-family: Fira Code, Arial, Helvetica, sans-serif;
-    margin: 5px;
-    border: 5px;
-    padding: 5px;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #1c1d1f;
+    color: #e8e6e3;
 }
 
 h2 {
@@ -16,10 +18,6 @@ p {
     font-size: small;
 }
 
-span {
-    color: #2600ff;
-}
-
 ul {
     padding-left: 0;
 }
@@ -27,6 +25,14 @@ ul {
 li {
     list-style-position: inside;
     font-size: small;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .nome-topo {
@@ -43,3 +49,24 @@ li {
     text-align: center;
 }
 
+.redes-sociais {
+    text-align: center;
+}
+
+.redes-sociais li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.redes-sociais a {
+    background-color: #c1bebe;
+    padding: 16px;
+    display: block;
+}
+
+.redes-sociais a:hover {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+}
