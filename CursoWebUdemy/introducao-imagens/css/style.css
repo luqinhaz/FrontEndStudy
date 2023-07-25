@@ -3,6 +3,32 @@
     color: #fff;
 }
 
+body {
+    font-size: 22px;
+    font-family: sans-serif;
+    width: 1500px;
+    margin: auto;
+
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: right bottom;
+}
+
+p {
+    line-height: 1.5;
+    text-align: justify;
+}
+
 .img-logo {
     width: 400px;
+}
+
+.img-html {
+    float: left;
+}
+
+.img-css {
+    float: right;
 }
