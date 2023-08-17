@@ -1,0 +1,102 @@
+.flexbox {
+    height: 250px;
+    border: 3px solid red;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.flexbox div {
+    border: 2px solid orange;
+    width: 150px;
+    margin: 15px;
+}
+
+.flex-container1 {
+    /* flex-wrap: wrap;
+    flex-direction: row; */
+    flex-flow: row wrap;
+}
+
+.flex-container2 {
+    justify-content: space-around;
+}
+
+.flex-container2 div {
+    width: 30px;
+    margin: 0;
+}
+
+.flex-container3 {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container3 div {
+    width: 30px;
+    margin: 0;
+}
+
+.flex-container4 {
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.flex-container4 div {
+    width: 30px;
+    margin: 0;
+}
+
+.flex-container5 {
+    justify-content: center;
+    align-items: flex-end; /* UMA UNICA LINHA */
+    align-content: flex-start; /* VARIAS LINHAS */
+    flex-wrap: wrap;
+
+}
+
+.flex-container5 div {
+    width: 150px;
+}
+
+.flex-container6 {
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    height: 400px;
+}
+
+.flex-container6 div {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+}
+
+.flex-container7 {
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: row;
+    height: 400px;
+}
+
+.flex-container7 div {
+    background-color: yellow;
+    width: 50px;
+    height: 50px;
+}
+
+.flex-container7 .div2 {
+    flex-basis: auto;
+}
+
+.flex-container10 {
+    flex-direction: row-reverse;
+}
+
+.flex-container10 div {
+    background-color: green;
+}
+
+.flex-container10 .div2 {
+    order: -1;
+    align-self: center;
+}
